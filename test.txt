@@ -5776,7 +5776,7 @@ function checkkey()
     if(savedkey == "WHITELIST") then
         if whitelist() then
             GrantAccess()
-            return true
+            return false
         end
     end
 
